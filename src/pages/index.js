@@ -1,0 +1,1 @@
+export {default as GuestLoginPage} from './GuestLoginPage';
