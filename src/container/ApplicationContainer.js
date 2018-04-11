@@ -9,7 +9,7 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(userFromServer(token))
                 .then((response) => {
                         if (!response.error) {
-                            sessionStorage.setItem('jwtToken', response.payload.data);
+                            sessionStorage.setItem('jwtToken', token);
                             dispatch(userFromServerSuccess(response.payload));
                         } else {
                             sessionStorage.removeItem('jwtToken');

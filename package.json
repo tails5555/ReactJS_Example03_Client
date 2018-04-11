@@ -10,9 +10,12 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
+    "react-stomp": "^3.0.1",
     "redux": "^3.7.2",
     "redux-form": "^7.3.0",
-    "redux-promise": "^0.5.3"
+    "redux-promise": "^0.5.3",
+    "sockjs-client": "^1.1.4",
+    "stomp-websocket": "^2.3.4-next"
   },
   "scripts": {
     "start": "react-scripts start",
