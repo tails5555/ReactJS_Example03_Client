@@ -11,4 +11,4 @@
 > - `axios`
 > - `jwt-decode`
 
-& 이 UI를 활용하는 강의 노트는 https://github.com/tails5555/mongoDB_JPA_Start04에서 `src > doc` 경로에 있습니다.
+& 이 UI를 활용하는 강의 노트는 https://github.com/tails5555/mongoDB_JPA_Start04 에 `src > doc` 경로에 있습니다.
