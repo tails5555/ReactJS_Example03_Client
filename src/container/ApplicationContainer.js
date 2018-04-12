@@ -1,4 +1,4 @@
-import ApplicationRouter from '../router/ApplicationRouter';
+import {ApplicationRouter} from '../router';
 import {connect} from 'react-redux';
 import {userFromServer, userFromServerSuccess, userFromServerFailure, resetUserFromServer} from "../action/user_action";
 const mapDispatchToProps = (dispatch) => {
